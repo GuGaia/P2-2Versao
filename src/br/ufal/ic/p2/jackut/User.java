@@ -151,6 +151,7 @@ public class User {
      * Obtem o novo atributo preenchido pelo usuário.
      *
      * @param attribute o atributo preenchido a ser retornado.
+     * @return atributo extra selecionado
      */
     public String getExtraAttribute(String attribute) {
         if (attributes.containsKey(attribute)) return attributes.get(attribute);

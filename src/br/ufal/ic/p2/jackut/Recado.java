@@ -11,9 +11,12 @@ public class Recado {
     private String remetente;
     private String mensagem;
 
+    /**
+     * Construtor da classe Recado
+     */
     public Recado(){};
     /**
-     * Construtor da classe Recado.
+     * Construtor da classe Recado nas configurações para armazenamento JSON.
      *
      * @param remetente O remetente da mensagem.
      * @param mensagem O conteúdo da mensagem.
